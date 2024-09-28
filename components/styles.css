@@ -1,0 +1,24 @@
+.service-box {
+  background-color: #d1c1c5; 
+  color: black; 
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  flex: 1; 
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center; 
+}
+
+.service-box.active {
+  background-color: white;
+  color: #ffffff; 
+}
+
+.inactive-text {
+  color: black;
+}
+
+.active-text {
+  color: #cb4163; 
+}
+
